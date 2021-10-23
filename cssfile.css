@@ -1,0 +1,62 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+form input[type=text] {
+  width: 70vh;
+  display: block;
+  border-style: groove;
+  margin: 5px;
+  width: 70vh;
+  height: 5vh;
+  font-size: 100%;
+  border-radius: 12px;
+  border: 2px solid #f5f5f5;
+}
+
+form input[type=submit] {
+  top: 80%;
+  margin-top: 7vh;
+  display: block;
+  width: 30vh;
+  height: 5vh;
+  position: fixed;
+  border-radius: 12px;
+  left: 30%;
+  background-color: f5f5f5;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+form input:hover {
+  -webkit-box-shadow: 1px 1px 1px 1px #b9b9b9;
+          box-shadow: 1px 1px 1px 1px #b9b9b9;
+}
+
+.img {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 4vh;
+}
+/*# sourceMappingURL=cssfile.css.map */
