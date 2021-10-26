@@ -2,18 +2,24 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="cssfile.css">
+        <link rel="stylesheet" href="test_index_style.css">
+     
     </head>
-    <body>
-        <img src="google.png" alt="Some logo is here!!!"  class="img" >
-        <form action="https://google.com/search" class="mainform">
-           
-            <input type="text" name="q" class="mainform">
-           
-                
-            <button type="submit" formaction="https://www.google.com/" class="mainform" >Search</button>
-            <button type="submit" formaction="https://www.google.com/doodles" class="mainform">I feel lucky</button>
-        
+    <body >
+        <div class="imgsearch">
+            <a href="img_search.html" >Images</a>
+            <a href="advancesearch.html" >Advance Search</a>
+        </div>
+        <img src="google.png" alt="Some logo is here!!!"  id="img" >
+        <form action="https://google.com/search" >  
+            <input type="text" name="q" id="input">   
+            <img src="search.png" alt="search" id="search_logo">   
+        <div class="center">
+
+                <button type="submit" formaction="https://www.google.com/" >Search</button>
+                <button type="submit" formaction="https://www.google.com/doodles">I feel lucky</button>
+        </div>
+            
         </form>
     </body>
 </html>
